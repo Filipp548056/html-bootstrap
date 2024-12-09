@@ -1,9 +1,12 @@
+/* BODY AND ALL VISIBLE CONTENT */
 body {
     display: flex;
     flex-direction: column;
     overflow: visible;
 }
 
+
+/* Navbar */
 .navbar-nav {
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -12,9 +15,10 @@ body {
 
 }
 
-.navigation {
+.image-box {
     display: flex;
-    width: 40%;
+    flex-direction: row;
+    padding-left: 140px;
 
 }
 
@@ -27,68 +31,53 @@ body {
 
 }
 
-.navbar-items {
-
-    color: aqua;
-    order: 5;
-    padding: 5%;
-
-}
-
 img {
     width: 70px;
     height: 60px;
     margin-left: 20px;
-
 }
 
-.image-box {
-    display: flex;
-    flex-direction: row;
-    padding-left: 140px;
+#p-Quantom-Solutions {
 
-}
-
-p {
-
-    color: rgb(0, 0, 0);
+    color: rgb(210, 12, 12);
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
     background-color: white;
+
+}
+
+/*  styling of navigation menu */
+.navigation {
+    display: flex;
+    width: 40%;
 }
 
 .nav-text {
-
     margin-right: 15px;
     height: 20vh;
     background-color: rgb(253, 253, 253);
     justify-content: center;
-
 }
 
-a {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
+.a-nav {
+    color: rgb(210, 12, 12);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
 }
 
 
 
-.main {
+
+/* Top main */
+.main-top {
     display: flex;
     height: 350px;
-
     overflow: visible;
     background-color: rgb(113, 112, 112);
     justify-content: flex-start;
     flex-direction: row;
     padding-left: 17rem;
-
-
-
-
-
 }
 
 .banner {
@@ -99,7 +88,6 @@ a {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-
 }
 
 .quantom {
@@ -107,11 +95,8 @@ a {
     font-size: 25px;
     margin-top: 50px;
     width: 100vh;
+    color: brown;
     background-color: rgb(113, 112, 112);
-
-
-
-
 }
 
 .quantom-text {
@@ -119,9 +104,15 @@ a {
     font-size: 8px;
     font-style: normal;
     background-color: rgb(113, 112, 112);
+    color: rgb(255, 0, 0);
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 }
+
+
+/* two cards in the top middle */
 
 .card-left {
     display: flex;
@@ -174,7 +165,7 @@ a {
 }
 
 .card-right-title {
-    
+
     display: flex;
     margin-bottom: 0.1rem;
     flex-direction: column;
@@ -194,6 +185,7 @@ a {
     font-weight: 100;
     padding-bottom: 5px;
 }
+
 .cards-components {
     display: flex;
     flex-direction: row;
@@ -227,37 +219,74 @@ a {
     margin-bottom: 1rem;
 }
 
+
 /* Rocket components and text style to it */
-.space-rocket-one{
+.srb1 {
     display: flex;
-    flex-direction: rowz;
-
-}
-
-.bs {
-    display: flex;
-    justify-content:center;
-    justify-items:center;
-    align-items:center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     flex-direction: column;
-
-
 }
 
 .space-rocket-box-1 {
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: center;
     justify-items: center;
-    flex-direction: column;
     align-items: center;
-    background-color: aqua;
+    flex-direction: column;
 }
 
-.rocker-text-one{
+.space-rocket-one {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.rocket-text-one {
     display: flex;
     align-self: flex-end;
     flex-direction: row;
     justify-content: center;
     max-width: 40rem;
     overflow: hidden;
+}
+
+.srb2 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.space-rocket-box-2 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.space-rocket-two {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.rocket-text-two {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 40rem;
+    overflow: hidden;
+}
+
+
+/* Why QuantomSky? how tf should i know why. Title + 6Cards with title and P-text and a button on the bottem*/
+
+. {
+
 }
