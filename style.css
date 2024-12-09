@@ -1,0 +1,263 @@
+body {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+
+.navbar-nav {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+
+
+}
+
+.navigation {
+    display: flex;
+    width: 40%;
+
+}
+
+.icon {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+
+}
+
+.navbar-items {
+
+    color: aqua;
+    order: 5;
+    padding: 5%;
+
+}
+
+img {
+    width: 70px;
+    height: 60px;
+    margin-left: 20px;
+
+}
+
+.image-box {
+    display: flex;
+    flex-direction: row;
+    padding-left: 140px;
+
+}
+
+p {
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    background-color: white;
+}
+
+.nav-text {
+
+    margin-right: 15px;
+    height: 20vh;
+    background-color: rgb(253, 253, 253);
+    justify-content: center;
+
+}
+
+a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+
+
+.main {
+    display: flex;
+    height: 350px;
+
+    overflow: visible;
+    background-color: rgb(113, 112, 112);
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 17rem;
+
+
+
+
+
+}
+
+.banner {
+    display: flex;
+    margin-right: 500px;
+    max-width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.quantom {
+    display: flex;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 100vh;
+    background-color: rgb(113, 112, 112);
+
+
+
+
+}
+
+.quantom-text {
+
+    font-size: 8px;
+    font-style: normal;
+    background-color: rgb(113, 112, 112);
+
+
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5rem;
+    border-radius: 15px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+.card-left-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 0.1rem;
+
+
+
+}
+
+.card-left-p {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    overflow: hidden;
+    font-size: 12px;
+    justify-content: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+
+
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5rem;
+    border-radius: 15px;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-end;
+    margin: 1rem;
+
+}
+
+.card-right-title {
+    
+    display: flex;
+    margin-bottom: 0.1rem;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.card-right-p {
+
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    overflow: hidden;
+    font-size: 12px;
+    justify-content: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+.cards-components {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+    border: 2rem;
+    border-radius: 15px;
+    border-color: aqua;
+    overflow: visible;
+
+}
+
+
+
+
+
+.card-button-right {
+    display: flex;
+    width: 15rem;
+    background-color: blue;
+    border-radius: 2px;
+    border-bottom-style: none;
+    margin-bottom: 1rem;
+}
+
+.card-button-left {
+    display: flex;
+    width: 15rem;
+    background-color: aqua;
+    margin-bottom: 1rem;
+}
+
+/* Rocket components and text style to it */
+.space-rocket-one{
+    display: flex;
+    flex-direction: rowz;
+
+}
+
+.bs {
+    display: flex;
+    justify-content:center;
+    justify-items:center;
+    align-items:center;
+    flex-direction: column;
+
+
+}
+
+.space-rocket-box-1 {
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+.rocker-text-one{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 40rem;
+    overflow: hidden;
+}
