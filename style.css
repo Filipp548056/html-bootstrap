@@ -389,24 +389,36 @@ img {
     display: flex;
 }
 
-.About-us-footer {
+.about-us-footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 20rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-us-footer-parent {
     display:flex;
     flex-direction: column;
-    max
+    background-color: aqua;
 
 }
 
-.text-footer{
-    color: white;
+.title-footer {
+    display: flex;
+    color: rgb(0, 255, 0);
+    size: 20rem;
+
+
+}
+
+.text-footer {
+    display: flex;
+    
+
 }
 
 .text-footer-links{
-    color:aqua
+    color:rgb(0, 4, 255)
 }
 
