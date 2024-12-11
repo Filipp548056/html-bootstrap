@@ -332,7 +332,6 @@ img {
         gap: 1rem;
         padding-top: 1rem;
         background-color: aquamarine;
-    
 }
 
 .bot2-3boxes {
@@ -359,8 +358,6 @@ img {
 }
 
 .start-today{
-    
-    
         display: flex;
         flex-direction: row;
         justify-content: center;
