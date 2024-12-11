@@ -360,3 +360,39 @@ img {
     background-color: aquamarine;
 
 }
+
+
+/* Footer */
+
+
+.footer {
+    background-color:wheat;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+}
+.navigation-footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.QuantomSky-parent{
+    display: flex;
+    flex-direction: row;
+    max-width: 20rem;
+}
+
+.navigagion-footer-parent {
+    display: flex;
+}
+
+.About-us-footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 20rem;
+}
+
+
