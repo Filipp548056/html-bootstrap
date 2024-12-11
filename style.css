@@ -222,11 +222,14 @@ img {
 
 /* Rocket components and text style to it */
 .srb1 {
-    display: flex;
+       display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
     flex-direction: column;
+    border-width: 5rem;
+    border-color: black;
+    overflow: visible;
 }
 
 .space-rocket-box-1 {
@@ -249,7 +252,7 @@ img {
     flex-direction: row;
     justify-content: center;
     max-width: 40rem;
-    overflow: hidden;
+    
 }
 
 .srb2 {
@@ -258,6 +261,12 @@ img {
     justify-items: center;
     align-items: center;
     flex-direction: column;
+    border-width: 5rem;
+    border-color: black;
+   
+    padding: 2rem;
+    overflow: visible;
+    
 }
 
 .space-rocket-box-2 {
@@ -284,9 +293,62 @@ img {
     overflow: hidden;
 }
 
+/* rocket box */
+
+.main-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
 
 /* Why QuantomSky? how tf should i know why. Title + 6Cards with title and P-text and a button on the bottem*/
 
-. {
+.main-bot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 1rem;
+}
 
+.main-bot2 {
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 1rem;
+        background-color: aquamarine;
+    
+}
+
+.main-bot3 {
+   
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 1rem;
+        background-color: aquamarine;
+    
+
+}
+
+.start-today{
+    
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 1rem;
+        background-color: aquamarine;
+    
 }
