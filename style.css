@@ -395,4 +395,18 @@ img {
     max-width: 20rem;
 }
 
+.about-us-footer-parent {
+    display:flex;
+    flex-direction: column;
+    max
+
+}
+
+.text-footer{
+    color: white;
+}
+
+.text-footer-links{
+    color:aqua
+}
 
