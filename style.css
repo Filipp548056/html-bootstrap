@@ -1,4 +1,4 @@
-/* BODY AND ALL VISIBLE CONTENT */
+BODY AND ALL VISIBLE CONTENT
 body {
     display: flex;
     flex-direction: column;
@@ -406,8 +406,9 @@ img {
 
 .title-footer {
     display: flex;
-    color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
     size: 20rem;
+    font-size: large;
 
 
 }
